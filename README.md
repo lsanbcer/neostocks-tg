@@ -12,6 +12,54 @@ pip install -r requirements.txt
 All configurations should be made to the ticker.txt file.  
 You can set the stock ticker symbols you want to track.  
 
+### List Neopain Companies
+```shell
+AAVL  
+ACFI  
+BB  
+BOTT  
+BUZZ  
+CHIA  
+CHPS  
+COFL  
+CYBU  
+DROO  
+EEEEE  
+FAER  
+FISH  
+HELT  
+HUW  
+KAUF  
+KBAT  
+KSON  
+LDSC  
+LUPE  
+MPC  
+MYNC  
+NAKR  
+NATN  
+PDSS  
+PEOP  
+POWR  
+SHRX  
+SKBD  
+SKEI  
+SMUG  
+SSS  
+STFP  
+SWNC  
+TAG  
+TNAH  
+TNPT  
+TPEG  
+TPP  
+TSRC  
+UNIB  
+VPTS  
+YIPP  
+NEODAQ  
+```
+
 ## How to use
 ```shell
 python neostocks.py case

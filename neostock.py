@@ -36,8 +36,8 @@ if __name__ == '__main__':
         switcher={
                 0 : json_s['summary_data']['1d'],  ## Read ticker from txt
                 1 : json_s['hot_stocks'],          ## Hot
-                2 : json_s['summary_data']['1d'],  ## Stocks price [ 15 ~ 20 ]
-                3 : json_s['summary_data']['1d']   ## All stocks
+                2 : json_s['summary_data']['1d'],  ## Tickers price [ 15 ~ 20 ]
+                3 : json_s['summary_data']['1d']   ## All Tickers
         }
         return switcher.get(i,"Invalid type of case")
 

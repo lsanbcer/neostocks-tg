@@ -18,5 +18,7 @@ if __name__ == '__main__':
 
     json_s = json.loads(string)
 
+    print('Ticker   Open     Curr     Change')
+
     for json in json_s['summary_data']['1d']:
-        print('{} \nopen:{} curr:{} change:{}'.format(json['ticker'], json['open'], json['curr'], json['change']))
+        print('{:5}'.format(json['ticker']) + '{:5}'.format(json['open']) + '{:5}'.format(json['curr']) + '{:5}'.format(json['change']))
